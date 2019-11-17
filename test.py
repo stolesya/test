@@ -1,17 +1,17 @@
-ocinka=int(input('який бал вихотіли б перевірити?(від 0 до 100) '))
-if ocinka>=90 and ocinka<=100:
+mark=int(input('який бал ви хотіли б перевірити?(від 0 до 100) '))
+if mark>=90 and mark<=100:
     print('рівень А, відмінно')
-elif ocinka>=82 and ocinka<=89:
+elif mark>=82 and mark<=89:
     print('рівень B, дуже добре')
-elif ocinka>=75 and ocinka<=81:
+elif mark>=75 and mark<=81:
     print('рівень С, добре')
-elif ocinka>=67 and ocinka<=74:
+elif mark>=67 and mark<=74:
     print('рівень D, задовільно')
-elif ocinka>=60 and ocinka<=66:
+elif mark>=60 and mark<=66:
     print('рівень Е, достатній')
-elif ocinka>=35 and ocinka<=59:
+elif mark>=35 and mark<=59:
     print('рівень FX, незадовільно, на перездачу шуруй')
-elif ocinka>=1 and ocinka<=34:
+elif mark>=1 and mark<=34:
     print('smert')
 else:
     print('ти шо ввів')
