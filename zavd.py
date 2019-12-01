@@ -14,4 +14,4 @@ elif b==c and b>a:
 elif c==a and c>b: 
     print('c і a - рівні та більші b')
 else:
-    print('усі числа рівні')
+    print('усі числа рівні')    
